@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>贪吃蛇</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="jquery.min.js"></script>
+    <script src="sanke.js"></script>
+</head>
+    <h1 class="h1"><span class="sp1">贪</span><span class="sp2">吃</span><span class="sp3">蛇</span><span class="sp4">大</span><span class="sp5">战</span></h1>
+    <p class="p"><span>得分：</span><span id="fenshu">0</span></p>
+    <p class="p p2"><span>用时：</span><span id="times">0</span></p>
+
+    <div id="div1"></div>
+    <p id="select">难度：
+        <select id="selectop">
+            <option value="180">新手</option>
+            <option value="130">初级</option>
+            <option value="80">中级</option>
+            <option value="60">高级</option>
+        </select>
+    </p>
+    <input type="button" value="点击开始" id="but">
+    <audio src="score.mp3" id="scaudio">请升级您的浏览器版本</audio>
+    <audio src="gameover.ogg" id="gameaudio">请升级您的浏览器版本</audio>
+</body>
+</html>
